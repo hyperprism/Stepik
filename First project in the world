@@ -1,0 +1,9 @@
+A = int(input()) #Надо спать
+B = int(input()) #Спать не надо
+H = int(input()) #Спит по факту
+if H >= A and H <= B and A <= B:
+    print('Это нормально')
+if H < A and H <= B and A <= B:
+    print('Недосып')
+if H >= A and H > B and A <= B:
+    print('Пересып')
