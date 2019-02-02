@@ -1,3 +1,2 @@
-s = 'aaaabbcaa'
-j = s[1:2]
-print(j)
+a = [int(i) for i in input().split()]
+print(sum(a))
