@@ -24,3 +24,4 @@ def update_dictionary(d, key, value):
     else:
         d[2*key] = []
         d[2*key].append(value)
+
